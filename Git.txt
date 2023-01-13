@@ -1,0 +1,28 @@
+1. git init
+
+2. git add . - > 전체 파일 올리기 .이 꼭 있어야 전체 파일이 올라감
+
+3. git commit -m "커밋한 후 보여줄 메시지"
+
+4. git remote add origin https://github.com/binkung/test.git
+
+5. git push origin master
+
+ 
+
+위의 순서대로 하면 프로젝트 올리기 완료
+
+ 
+
+ 
+
+Git 업데이트 하기 
+ 
+
+1.git bash here 클릭 후
+
+2.git add -A
+
+3.git commit -m "메시지"
+
+4. git  git push origin master
