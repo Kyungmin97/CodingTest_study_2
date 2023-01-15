@@ -1,28 +1,20 @@
-1. git init
+https://shortcuts.tistory.com/m/8
 
-2. git add . - > 전체 파일 올리기 .이 꼭 있어야 전체 파일이 올라감
+//저장소 생성 및 연결
+$ git init
+$ git remote add origin [원격저장소 주소]
+$ git branch -m master main
 
-3. git commit -m "커밋한 후 보여줄 메시지"
+//파일 업로드
+$ git pull origin main
+$ git add .
+$ git commit -m "commit message"
+$ git push origin main
 
-4. git remote add origin https://github.com/binkung/test.git
-
-5. git push origin master
-
- 
-
-위의 순서대로 하면 프로젝트 올리기 완료
-
- 
-
- 
-
-Git 업데이트 하기 
- 
-
-1.git bash here 클릭 후
-
-2.git add -A
-
-3.git commit -m "메시지"
-
-4. git  git push origin master
+//추가적인 명령어
+$ git remote -v
+$ git remote rm origin
+$ git branch
+$ git config --global init.defaultBranch [브랜치 이름]
+$ git status
+$ git rm --cached -r .
